@@ -1,0 +1,82 @@
+@font-face {font-family: "Pokemon"; src: url("//db.onlinewebfonts.com/t/f4d1593471d222ddebd973210265762a.eot"); src: url("//db.onlinewebfonts.com/t/f4d1593471d222ddebd973210265762a.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/f4d1593471d222ddebd973210265762a.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/f4d1593471d222ddebd973210265762a.woff") format("woff"), url("//db.onlinewebfonts.com/t/f4d1593471d222ddebd973210265762a.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/f4d1593471d222ddebd973210265762a.svg#Pokemon") format("svg"); }
+  body{
+    background-repeat: no-repeat;  
+    background-size: cover;
+    background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/2fb2821a-1406-4a1d-9b04-6668f278e944/de2solr-d0756bff-3418-4364-ba91-6127435ce981.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzJmYjI4MjFhLTE0MDYtNGExZC05YjA0LTY2NjhmMjc4ZTk0NFwvZGUyc29sci1kMDc1NmJmZi0zNDE4LTQzNjQtYmE5MS02MTI3NDM1Y2U5ODEuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.wuRKobYm9yl9eoiZ51uQTx2j5QOU_8BR6_edD-gTo8Y") ;
+    font-family: Pokemon;
+    color: #ffeb00;
+    text-shadow: 2px 2px 2px #000000;
+  }
+  .container {
+    background: linear-gradient(180deg, rgba(255,0,0,1) 0%, rgba(255,67,67,1) 56%);
+    width: 300px;
+    height: 100px;
+    margin: 0% auto;
+    text-align: center;
+    border: 5px solid black;
+    border-top-left-radius: 5% 15%;
+    border-top-right-radius: 5% 15%;
+    border-bottom-right-radius: 5% 15%;
+    border-bottom-left-radius: 5% 15%;
+}
+.boton {
+    font-family: Pokemon;
+    color: #ffeb00;
+    background-color: #fc0f0f;
+    text-shadow: 2px 2px 2px #000000;
+    transition-duration: 0.50s;
+    border: 2px solid black;
+    margin-top: -2px;
+    margin-left: 90px;
+    display: flex;
+}
+.boton:hover {
+    font-family: Pokemon;
+    color: #ffeb00;
+    background-color: #ff9c9c;
+    text-shadow: 2px 2px 5px #000000;
+}
+.boton:active {
+    font-family: Pokemon;
+    color: #ffeb00;
+    background-color: #910000;
+    text-shadow: 2px 2px 2px #000000;
+    transition-duration: 0.4s;
+    border: 2px solid black;
+    margin-top: 2px;
+    margin-left: 90px;
+    display: flex;
+}
+.pokedex {
+    width: 387px;
+    height: 771px;
+    margin: 5% -13%;
+}
+.pokedeximg {
+    width: 400px;
+    position: absolute;
+    left: 36.2%;
+    /* top: 13%; */
+    z-index: 1;
+}
+.texto{
+    margin-bottom: -2%;
+}
+.datos {
+    z-index: 2;
+    position: absolute;
+}
+.photo {
+    width: 150px;
+    height: 150px;
+    margin-left: -13%;
+    margin-top: 19%;
+}
+.nombre {
+    margin-top: 20%;
+    margin-left: 8%;
+}
+.id {
+    margin-top: 22%;
+    margin-left: 8%;
+}
