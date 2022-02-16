@@ -8,25 +8,17 @@
     text-shadow: 2px 2px 2px #000000;
   }
   .container {
-    background: linear-gradient(180deg, rgba(255,0,0,1) 0%, rgba(255,67,67,1) 56%);
-    width: 300px;
-    height: 100px;
-    margin: 0% auto;
-    text-align: center;
-    border: 5px solid black;
-    border-top-left-radius: 5% 15%;
-    border-top-right-radius: 5% 15%;
-    border-bottom-right-radius: 5% 15%;
-    border-bottom-left-radius: 5% 15%;
+    width: 100%;
+    margin: 0;
 }
 .boton {
     font-family: Pokemon;
     color: #ffeb00;
     background-color: #fc0f0f;
     text-shadow: 2px 2px 2px #000000;
-    transition-duration: 0.50s;
     border: 2px solid black;
     margin-top: -2px;
+    margin-bottom: 2px;
     margin-left: 90px;
     display: flex;
 }
@@ -44,19 +36,22 @@
     transition-duration: 0.4s;
     border: 2px solid black;
     margin-top: 2px;
+    margin-bottom: -2px;
     margin-left: 90px;
     display: flex;
 }
 .pokedex {
     width: 387px;
     height: 771px;
-    margin: 5% -13%;
+    margin: 1% auto;
+    box-sizing: border-box;
+    position: relative;
 }
 .pokedeximg {
-    width: 400px;
+    width: 100%;
     position: absolute;
-    left: 36.2%;
-    /* top: 13%; */
+    left: 0;
+    top: 0;
     z-index: 1;
 }
 .texto{
@@ -65,18 +60,59 @@
 .datos {
     z-index: 2;
     position: absolute;
+    -webkit-text-stroke: 2px black;
+    text-shadow: none;
+    font-size: 30px;
+    letter-spacing: 3px;
+}
+.text{
+    text-transform: lowercase;
+}
+.principal {
+    background: linear-gradient(180deg, rgba(255,0,0,1) 0%, rgba(255,67,67,1) 56%);
+    width: 300px;
+    height: 100px;
+    margin: 0% auto;
+    text-align: center;
+    border: 5px solid black;
+    border-top-left-radius: 5% 15%;
+    border-top-right-radius: 5% 15%;
+    border-bottom-right-radius: 5% 15%;
+    border-bottom-left-radius: 5% 15%;
+}
+.info {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 2;
+    margin: 0 auto;
 }
 .photo {
-    width: 150px;
-    height: 150px;
-    margin-left: -13%;
-    margin-top: 19%;
+    left: 37%;
+    top: 14%;
 }
-.nombre {
-    margin-top: 20%;
-    margin-left: 8%;
+.name {
+    top: 20%;
+    left: 8%;
 }
 .id {
-    margin-top: 22%;
-    margin-left: 8%;
+    top: 27%;
+    left: 8%;
+}
+.types {
+    top: 32%;
+    left: 8%;
+    /* display: none; */
+}
+.lista{
+    display: none;
+    position: absolute;
+    top: 37%;
+    left: 8%;
+    list-style-type:none;
+}
+.height {
+    top: 40%;
+    left: 8%;
+
 }
